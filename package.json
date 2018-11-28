@@ -1,0 +1,17 @@
+{
+  "name": "fashion_api",
+  "version": "0.1.1",
+  "description": "API to interact with the Clarify Models and the Client Side App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Shekhar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "clarifai": "^2.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
