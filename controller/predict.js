@@ -8,7 +8,7 @@ const handleApiCall = (req,res) => {
 	app.models
 		.predict(Clarifai.APPAREL_MODEL, req.body.input)
 		.then(data=> {
-			res.json(data);
+			res.status(200).json(data);
 		})
 		.catch(err=> res.status(400).json(err))
 }
